@@ -344,6 +344,38 @@ def haacmp(input):
     haplocheiruscmp += abs(config.haplocheirushaa - input)
     gualichocmp += abs(config.gualichohaa - input)
 
+def sort():
+    global herrerasauruscmp
+    global eoraptorcmp
+    global tawacmp
+    global syntarsuscmp
+    global coelophysiscmp
+    global dilophosauruscmp
+    global eodromaeuscmp
+    global carnotauruscmp
+    global africancmp
+    global xuanhanosauruscmp
+    global allosauruscmp
+    global torvosauruscmp
+    global acrocanthosauruscmp
+    global guanlongcmp
+    global albertosauruscmp
+    global gorgosauruscmp
+    global daspletosauruscmp
+    global tarbosauruscmp
+    global tyrannosauruscmp
+    global yutyrannuscmp
+    global haplocheiruscmp
+    global gualichocmp
+    float_dict = {'herrerasaurus': herrerasauruscmp, 'eoraptor': eoraptorcmp, 'tawa': tawacmp, 'syntarsus': syntarsuscmp, 'coelophysis' : coelophysiscmp, 'dilophosaurus' : dilophosauruscmp, 'eodromaeus' : eodromaeuscmp, 'carnotaurus' : carnotauruscmp, 'african' : africancmp, 'xuanhanosaurus' : xuanhanosauruscmp, 'allosaurus' : allosauruscmp, 'torvosaurus' : torvosauruscmp, 'acrocanthosaurus' : acrocanthosauruscmp, 'guanlong' : guanlongcmp, 'albertosaurus' : albertosauruscmp, 'gorgosaurus' : gorgosauruscmp, 'daspletosaurus' : daspletosauruscmp, 'tarbosaurus' : tarbosauruscmp, 'tyrannosaurus' : tyrannosauruscmp, 'yutyrannus' : yutyrannuscmp, 'haplocheirus' : haplocheiruscmp, 'gualicho' : gualichocmp}
+    sorted_floats = sorted(float_dict.items(), key=lambda item: item[1])
+    print(sorted_floats)
+    print("the Theropod most similar to the data entered is " + str(sorted_floats[0]))
+    print("second most similar: " + str(sorted_floats[1]))
+    print("third most similar: " + str(sorted_floats[2]))
+    print("least similar: " + str(sorted_floats[21]))
+
+
 def main():
     global herrerasauruscmp
     global eoraptorcmp
@@ -390,6 +422,7 @@ def main():
     print("calculating haa...")
     haacmp(HAA)
     print("determining closest measurements...")
+    sort()
 
 if __name__ == "__main__":
     main()
