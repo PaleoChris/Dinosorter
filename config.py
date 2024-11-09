@@ -1,7 +1,7 @@
 #This is where the Theropod data will be called from to compara against
     #user inputs in main.py. 
 
-#all measurements in the same unit (chris isn't sure)
+#all measurements in the same units
 
 #Herrerasaurus ischigualastensis -- PVSJ 373 (L)
 herrerasauruspaw = 0.9039451115
