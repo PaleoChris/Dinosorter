@@ -1,5 +1,13 @@
 import config
-#config_path = os.path.join(bundle_dir, 'config.py')
+import os
+import sys
+
+def get_config_path(filename):
+    # Access the temporary directory when bundled, otherwise, use current directory
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base_path, filename)
+
+config_path = get_config_path("config.py")
 
 herrerasauruscmp = 0.0
 eoraptorcmp = 0.0
