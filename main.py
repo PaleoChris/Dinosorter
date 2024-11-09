@@ -1,4 +1,6 @@
 import config
+config_path = os.path.join(bundle_dir, 'config.py')
+
 herrerasauruscmp = 0.0
 eoraptorcmp = 0.0
 tawacmp = 0.0
