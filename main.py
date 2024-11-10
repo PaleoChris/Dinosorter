@@ -433,6 +433,7 @@ def main():
     haacmp(HAA)
     print("determining closest measurements...")
     sort()
+    woohoo = input("Enter anything to confirm: ")
 
 if __name__ == "__main__":
     main()
