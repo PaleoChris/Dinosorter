@@ -3,200 +3,282 @@
 
 #all measurements in the same units
 
-#Herrerasaurus ischigualastensis -- PVSJ 373 (L)
-herrerasauruspaw = 0.9039451115
-herrerasaurusbi = 0.7541871921
-herrerasaurushei = 0.2431855501
-herrerasaurusoi = 0.1021080369
-herrerasaurusrri = 0.07119529719
-herrerasaurusmc3ri = 0.1475128645
-herrerasaurushaa = 0.1362276728
+#Acinonyx jubatus (African Cheetah)
+A,jubutuspaw = 0.5249639564
+A,jubutusbi = 0.974712302
+A,jubutushei = 0.1656928279
+A,jubutusoi = 0.1673197007
+A,jubutusrri = 0.07509796028
+A,jubutusmc3ri = 0.0990688472
+A,jubutushaa = 0.1197147525
 
-#Eoraptor lunensis -- PVSJ 512 (R)
-eoraptorpaw = 1.272727273
-eoraptorbi = 0.7485242031
-eoraptorhei = 0.2774498229
-eoraptoroi = 0.05792163543
-eoraptorrri = 0.09148264984
-eoraptormc3ri = 0.2373737374
-eoraptorhaa = 0.1499167956
+#Caracal caracal (Caracal)
+C,caracalpaw = 0.5637343212
+C,caracalbi = 0.919186927
+C,caracalhei = 0.18565476
+C,caracaloi = 0.1557890411
+C,caracalrri = 0.0680689115
+C,caracalmc3ri = 0.09164970042
+C,caracalhaa = 0.118512664
 
-#Tawa hallae -- GR 242 (R)
-tawapaw = 0.7509157509
-tawabi = 0.8238188976
-tawahei = 0.2017716535
-tawaoi = 0.05995203837
-tawarri = 0.05615292712
-tawamc3ri = 0.1172161172
-tawahaa = 0.103957977
+#Catopuma temminckii (Asian golden cat)
+C,temminckiipaw = 0.60057569
+C,temminckiibi = 0.8947041631
+C,temminckiihei = 0.215576782
+C,temminckiioi = 0.1583920315
+C,temminckiirri = 0.0671936506
+C,temminckiimc3ri = 0.09031142342
+C,temminckiihaa = 0.1321733743
 
-#Syntarsus rhodesiensis -- QG 1
-syntarsuspaw = 0.8076923077
-syntarsusbi = 0.61
-syntarsushei = 0.22
-syntarsusoi = 0.2148942884
-syntarsusrri = 0.06557377049
-syntarsusmc3ri = 0.08076923077
-syntarsushaa = 0.1061084351
+#Felis chaus (Jungle cat) -- QG 1
+F,chauspaw = 0.5462452429
+F,chaussbi = 0.9503411767
+F,chaushei = 0.1035059657
+F,chausoi = 0.1176476386
+F,chausrri = 0.05782087174
+F,chausmc3ri = 0.08832269535
+F,chaushaa = 0.1138146075
 
-#Coelophysis bauri -- TMP Red (L)
-coelophysispaw = 0.7232954545
-coelophysisbi = 0.6835637481
-coelophysishei = 0.1502304147
-coelophysisoi = 0.153937101
-coelophysisrri = 0.09438202247
-coelophysismc3ri = 0.1534090909
-coelophysishaa = 0.1146900829
+#Felis margarita (Sand cat)
+F,margaritapaw = 0.6308260578
+F,margaritabi = 0.929807359
+F,margaritahei = 0.1005570163
+F,margaritaoi = 0.1226971082
+F,margaritarri = 0.05681679165
+F,margaritamc3ri = 0.09207215513
+F,margaritahaa = 0.1086375479
 
-#Dilophosaurus wetherilli -- UCMP 37302 (L)
-dilophosauruspaw = 0.9808978032
-dilophosaurusbi = 0.7083941606
-dilophosaurushei = 0.2678832117
-dilophosaurusoi = 0.1645400345
-dilophosaurusrri = 0.1035548686
-dilophosaurusmc3ri = 0.1671442216
-dilophosaurushaa = 0.1539437517
+#Felis nigripes (Black-footed cat)
+F,nigripespaw =0.5208857362
+F,nigripesbi = 0.938372024
+F,nigripeshei = 0.09609299061
+F,nigripesoi = 0.1077831598
+F,nigripesrri = 0.05644450713
+F,nigripesmc3ri = 0.08201176606
+F,nigripeshaa = 0.1048796876
 
-#Eodromaeus murphi -- PVSJ 562
-eodromaeuspaw = 1.125917343
-eodromaeusbi = 0.7769953052
-eodromaeushei = 0.2012676056
-eodromaeusoi = 0.1471497123
-eodromaeusrri = 0.08912386707
-eodromaeusmc3ri = 0.1698841699
-eodromaeushaa = 0.1176628059
+#Felis silvestris (Wild cat)
+F,silvestrispaw = 0.5410348229
+F,silvestrisbi = 0.961826599
+F,silvestrishei = 0.1037107074
+F,silvestrisoi = 0.124619759
+F,silvestrisrri = 0.05775081657
+F,silvestrismc3ri = 0.08951004125
+F,silvestrishaa = 0.1115167083
 
-#Carnotaurus sastrei -- MACH-CH 894 (averaged)
-carnotauruspaw = 1.845345912
-carnotaurusbi = 0.2668421053
-carnotaurushei = 0.3148070175
-carnotaurusoi = 0.1522662379
-carnotaurusrri = 0.5431970037
-carnotaurusmc3ri = 0.4576058129
-carnotaurushaa = 0.2281469478
+#Herpailurus yagouaroundi (Jaguarundi)
+H,yagouaroundipaw = 0.611444464
+H,yagouaroundibi = 0.826072798
+H,yagouaroundihei = 0.1138160786
+H,yagouaroundioi = 0.1696175439
+H,yagouaroundirri = 0.0702645791
+H,yagouaroundimc3ri = 0.08897777276
+H,yagouaroundihaa = 0.1208703918
 
-#African noasaurid -- 
-africanpaw = 2.03960396
-africanbi = 0.3973856209
-africanhei = 0.2104575163
-africanoi = 0.1794871795
-africanrri = 0.1973684211
-africanmc3ri = 0.4356435644
-africanhaa = 0.1229028849
+#Leopardus pardalis (Ocelot)
+L,pardalispaw = 0.6713270104
+L,pardalisbi = 0.86197608
+L,pardalishei = 0.1216588633
+L,pardalisoi = 0.1764212299
+L,pardalisrri = 0.07739991606
+L,pardalismc3ri = 0.1072061661
+L,pardalishaa = 0.1352271959
 
-#Xuanhanosaurus quilixiaensis -- IVPP V6729 (R)
-xuanhanosauruspaw = 1.107266436
-xuanhanosaurusbi = 0.7368421053
-xuanhanosaurushei = 0.2985964912
-xuanhanosaurusoi = 0.1025056948
-xuanhanosaurusrri = 0.1219047619
-xuanhanosaurusmc3ri = 0.2093425606
-xuanhanosaurushaa = 0.2128351215
+#Leopardrus tigrinus (Oncilla)
+L,tigeinustigpaw = 0.6027276742
+L,tigeinusbi = 0.8500685618
+L,tigeinushei = 0.09712651666
+L,tigeinusoi = 0.1392364648
+L,tigeinusrri = 0.05951563598
+L,tigeinusmc3ri = 0.09503849545
+L,tigeinushaa = 0.1096920843
 
-#Allosaurus fragilis -- USNM 4734
-allosauruspaw = 0.96
-allosaurusbi = 0.7161290323
-allosaurushei = 0.3225806452
-allosaurusoi = 0.2108432626
-allosaurusrri = 0.09009009009
-allosaurusmc3ri = 0.176
-allosaurushaa = 0.2362749842
+#Leopardus wiedii (Margay)
+L,wiediipaw = 0.645714407
+L,wiediibi = 0.8717679984
+L,wiediihei = 0.1025080982
+L,wiediioi = 0.1442505358
+L,wiediirri = 0.06356802028
+L,wiediimc3ri = 0.09101407777
+L,wiediihaa = 0.1186413541
 
-#Torvosaurus tanneri -- BYU 725/2002
-torvosauruspaw = 1.659
-torvosaurusbi = 0.4404651163
-torvosaurushei = 0.2988372093
-torvosaurusoi = 0.2549240293
-torvosaurusrri = 0.196937698
-torvosaurusmc3ri = 0.4233703001
-torvosaurushaa = 0.1722419218
+#leptailurus serval (Serval)
+L,servalpaw = 0.4989223699
+L,servalbi = 0.970301254
+L,servalhei = 0.1025611651
+L,servaloi = 0.124068281
+L,servalrri = 0.0549725714
+L,servalmc3ri = 0.07591624902
+L,servalhaa = 0.1094693636
 
-#Acrocanthosaurus atokensis -- NCSM 14345
-acrocanthosauruspaw = 1.659
-acrocanthosaurusbi = 0.5789473684
-acrocanthosaurushei = 0.3852631579
-acrocanthosaurusoi = 0.2429565794
-acrocanthosaurusrri = 0.1590909091
-acrocanthosaurusmc3ri = 0.275862069
-acrocanthosaurushaa = 0.2177222811
+#lynx canadensis (Canadian lynx)
+L,canadensispaw = 0.5048356611
+L,canadensisbi = 0.978735588
+L,canadensishei = 0.1056559798
+L,canadensisoi = 0.122615554
+L,canadensisrri = 0.05677185001
+L,canadensismc3ri = 0.08205274882
+L,canadensishaa = 0.1155843846
 
-#Guanlong wucaii -- IVPP V14531 (L)
-guanlongpaw = 0.6328555678
-guanlongbi = 0.723364486
-guanlonghei = 0.2504672897
-guanlongoi = 0.07430340557
-guanlongrri = 0.09689922481
-guanlongmc3ri = 0.1565600882
-guanlonghaa = 0.1194871783
+#Lynx lynx (Eurasian lynx)
+L,lynxpaw = 0.582389309
+L,lynxbi = 0.943800413
+L,lynxhei = 0.117759798
+L,lynxoi = 0.1546522743
+L,lynxrri = 0.06969370386
+L,lynxmc3ri = 0.09537403016
+L,lynxhaa = 0.1253476119
 
-#Albertosaurus sarcophagus -- TMP 86.64.01
-albertosauruspaw = 0.2207792208
-albertosaurusbi = 0.465258216
-albertosaurushei = 0.1690140845
-albertosaurusoi = 0.2161594963
-albertosaurusrri = 0.1089808274
-albertosaurusmc3ri = 0.274258658
-albertosaurushaa = 0.1142781898
+#Lynx pardinus (Iberian lynx)
+L,pardinuspaw = 0.565055762081784
+L,pardinusbi = 0.966751918158568
+L,pardinushei = 0.111892583120205
+L,pardinusoi = 0.169480519480519
+L,pardinusrri = 0.0753968253968254
+L,pardinusmc3ri = 0.0947955390334573
+L,pardinushaa = 0.121693518610449
 
-#Gorgosaurus libratus -- TMP 91.36.500
-gorgosauruspaw = 0.8213716108
-gorgosaurusbi = 0.5639187575
-gorgosaurushei = 0.2212465153
-gorgosaurusoi = 0.3370786517
-gorgosaurusrri = 0.1387711864
-gorgosaurusmc3ri = 0.2488038278
-gorgosaurushaa = 0.1747395826
+#Lynx rufus (Bobcat
+L,rufuspaw = 0.5737071257
+L,rufusbi = 0.926643431
+L,rufushei = 0.1034730036
+L,rufusoi = 0.1336629737
+L,rufusrri = 0.06185232637
+L,rufusmc3ri = 0.09310689868
+L,rufushaa = 0.1131724185
 
-#Daspletosaurus torosus -- TMP 2001.36.1
-daspletosauruspaw = 0.5921696574
-daspletosaurusbi = 0.5571830986
-daspletosaurushei = 0.2414084507
-daspletosaurusoi = 0.2699350266
-daspletosaurusrri = 0.2416582406
-daspletosaurusmc3ri = 0.4143556281
-daspletosaurushaa = 0.165792256
+#Neofelis nebulosa (Clouded Leopard)
+N,nebulosapaw = 0.7709073376
+N,nebulosabi = 0.799019629
+N,nebulosahei = 0.1309845652
+N,nebulosaoi = 0.1806694372
+N,nebulosarri = 0.09689898597
+N,nebulosamc3ri = 0.1219103086
+N,nebulosahaa = 0.1475395716
 
-#Tarbosaurus bataar -- GIN 107/2 (L)
-tarbosauruspaw = 0.7202453988
-tarbosaurusbi = 0.438028169
-tarbosaurushei = 0.1908450704
-tarbosaurusoi = 0.2993572084
-tarbosaurusrri = 0.1768488746
-tarbosaurusmc3ri = 0.290797546
-tarbosaurushaa = 0.129410282
+#Oncifelis colocolo (Pampas cat)
+O,colocolopaw = 0.5880652716
+O,colocolobi = 0.888003335
+O,colocolohei = 0.107399893
+O,colocolooi = 0.1530332684
+O,colocolorri = 0.06203893336
+O,colocolomc3ri = 0.0875229229
+O,colocolohaa = 0.1218997296
 
-#Tyrannosaurus rex -- FMNH PR 2081
-tyrannosauruspaw = 0.6839134615
-tyrannosaurusbi = 0.4493506494
-tyrannosaurushei = 0.2846969697
-tyrannosaurusoi = 0.220090829
-tyrannosaurusrri = 0.1560693642
-tyrannosaurusmc3ri = 0.3076923077
-tyrannosaurushaa = 0.1685700921
+#Oncifelis geoffroyi (Geoffroy's cat)
+O,geoffroyipaw = 0.6178298632
+O,geoffroyibi = 0.86647177
+O,geoffroyihei = 0.10744164
+O,geoffroyioi = 0.1514087462
+O,geoffroyirri = 0.06325476627
+O,geoffroyimc3ri = 0.08725510745
+O,geoffroyihaa = 0.1211729981
 
-#Yutyrannus huali -- ZCDM 5001
-yutyrannuspaw = 0.7180254301
-yutyrannusbi = 0.6863354037
-yutyrannushei = 0.2534161491
-yutyrannusoi = 0.1217391304
-yutyrannusrri = 0.1194570136
-yutyrannusmc3ri = 0.172026926
-yutyrannushaa = 0.1067869349
+#Otocolobus manul (Pallas's cat)
+O,manulpaw = 0.6519584006
+O,manulbi = 0.901481903
+O,manulhei = 0.09860764305
+O,manuloi = 0.137488292
+O,manulrri = 0.06058844744
+O,manulmc3ri = 0.09067708508
+O,manulhaa = 0.1126701526
 
-#Haplocheirus sollers -- IVPP V15988 (L)
-haplocheiruspaw = 0.5773195876
-haplocheirusbi = 0.7263513514
-haplocheirushei = 0.2867398649
-haplocheirusoi = 0.1333333333
-haplocheirusrri = 0.08255813953
-haplocheirusmc3ri = 0.14604811
-haplocheirushaa = 0.1501404277
+#Panthera leo (African lion)
+P,leopaw = 0.797322349
+P,leobi = 0.911252465
+P,leohei = 0.1639860958
+P,leooi = 0.2077508721
+P,leorri = 0.09146278289
+P,leomc3ri = 0.1251634461
+P,leohaa = 0.1716907222
 
-#Gualicho shinyae -- 
-gualichopaw = 0.4160342717
-gualichobi = 0.5387237762
-gualichohei = 0.1529370629
-gualichooi = 0.07451318055
-gualichorri = 0.08387906323
-gualichomc3ri = 0.1369277846
-gualichohaa = 0.07557332229
+#Panthera onca (Jaguar)
+P,oncapaw = 0.8223078033
+P,oncabi = 0.826791247
+P,oncahei = 0.1530447453
+P,oncaoi = 0.198294667
+P,oncarri = 0.09743689694
+P,oncamc3ri = 0.1284964734
+P,oncahaa = 0.1624735768
+
+#Panthera pardus (Leopard)
+P,parduspaw = 0.7301397941
+P,pardusbi = 0.848732041
+P,pardushei = 0.1431792569
+P,pardusoi = 0.1872983071
+P,pardusrri = 0.08893736028
+P,pardusmc3ri = 0.1195355628
+P,pardushaa = 0.14835471
+
+#Panthera tigris (Tiger)
+P,tigrispaw = 0.7301397941
+P,tigrisbi = 0.848732041
+P,tigrishei = 0.1431792569
+P,tigrisoi = 0.1872983071
+P,tigrisrri = 0.08893736028
+P,tigrismc3ri = 0.1195355628
+P,tigrishaa = 0.14835471
+
+
+#Panthera uncia (Snow leopard)
+P,unciapaw = 0.7281098986
+P,unciabi = 0.890088824
+P,unciahei = 0.146509987
+P,unciaoi = 0.2119160022
+P,unciarri = 0.0881834781
+P,unciamc3ri = 0.1207926903
+P,unciahaa = 0.155147223
+
+#Pardofelis marmorata (Marbled cat)
+P,marmoratapaw = 0.648213031
+P,marmoratabi = 0.849104429
+P,marmoratahei = 0.1052994959
+P,marmorataoi = 0.1383770046
+P,marmoratarri = 0.07848510111
+P,marmoratamc3ri = 0.09361027416
+P,marmoratahaa = 0.1206954497
+
+#Prionailurus bengalensis (Leopard cat)
+P,bengalensispaw = 0.6221651305
+P,bengalensisbi = 0.884390096
+P,bengalensishei = 0.1012234515
+P,marmorataoi = 0.1391164776
+P,marmoratarri = 0.06494840342
+P,marmoratamc3ri = 0.09358610789
+P,marmoratahaa = 0.1126344829
+
+#Prionailurus planiceps (Flat-headed cat)
+P,planicepspaw = 0.5957531993
+P,planicepsbi = 0.909574395
+P,planicepshei = 0.1100515191
+P,planicepsoi = 0.1521956005
+P,planicepsrri = 0.06665628404
+P,planicepsmc3ri = 0.08935602111
+P,planicepshaa = 0.1208785518
+
+#Prionailurus viverrinus (Fishing cat)
+P,viverrinuspaw = 0.5957531993
+P,viverrinusbi = 0.909574395
+P,viverrinushei = 0.1100515191
+P,viverrinusoi = 0.1521956005
+P,viverrinusrri = 0.06665628404
+P,viverrinusmc3ri = 0.08935602111
+P,viverrinushaa = 0.1208785518
+
+#Profelis aurata (Fishing cat)
+P,auratapaw = 0.6091990104
+P,auratabi = 0.88836083
+P,auratahei = 0.1111403648
+P,aurataoi = 0.1659234395
+P,auratarri = 0.0774511954
+P,auratamc3ri = 0.09633974841
+P,auratahaa = 0.1253742639
+
+#Puma concolor (Puma)
+P,concolorpaw = 0.6801231157
+P,concolorbi = 0.8344660673
+P,concolorhei = 0.1467852398
+P,concoloroi = 0.190874997
+P,concolorrri = 0.1033199436
+P,concolormc3ri = 0.1129731927
+P,concolorhaa = 0.1507023435
