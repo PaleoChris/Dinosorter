@@ -85,13 +85,13 @@ L,pardalismc3ri = 0.1072061661
 L,pardalishaa = 0.1352271959
 
 #Leopardrus tigrinus (Oncilla)
-L,tigeinustigpaw = 0.6027276742
-L,tigeinusbi = 0.8500685618
-L,tigeinushei = 0.09712651666
-L,tigeinusoi = 0.1392364648
-L,tigeinusrri = 0.05951563598
-L,tigeinusmc3ri = 0.09503849545
-L,tigeinushaa = 0.1096920843
+L,tigrinuspaw = 0.6027276742
+L,tigrinusbi = 0.8500685618
+L,tigrinushei = 0.09712651666
+L,tigrinusoi = 0.1392364648
+L,tigrinusrri = 0.05951563598
+L,tigrinusmc3ri = 0.09503849545
+L,tigrinushaa = 0.1096920843
 
 #Leopardus wiedii (Margay)
 L,wiediipaw = 0.645714407
@@ -242,10 +242,10 @@ P,marmoratahaa = 0.1206954497
 P,bengalensispaw = 0.6221651305
 P,bengalensisbi = 0.884390096
 P,bengalensishei = 0.1012234515
-P,marmorataoi = 0.1391164776
-P,marmoratarri = 0.06494840342
-P,marmoratamc3ri = 0.09358610789
-P,marmoratahaa = 0.1126344829
+P,bengalensisoi = 0.1391164776
+P,bengalensisrri = 0.06494840342
+P,bengalensismc3ri = 0.09358610789
+P,bengalensishaa = 0.1126344829
 
 #Prionailurus planiceps (Flat-headed cat)
 P,planicepspaw = 0.5957531993
